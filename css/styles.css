@@ -1,0 +1,552 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#home{
+  background-image: url("../images/bg7.jpg");
+  background-repeat: no-repeat;
+  background-size: 101%;
+  background-color: black;
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+
+.mic{
+  color: white;
+  font-size: 3.5rem;
+  padding: 0 1rem 0 0;
+}
+
+.speech-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.navlink{
+  font-size: 1.25rem;
+  font-family: "Pathway Gothic One";
+  padding: 0 1rem 0 0;
+}
+
+.nav-item{
+  padding: 0 1rem 0 0;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2{
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h3{
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.ft-line{
+  padding: 5rem 0 18rem;
+}
+
+.line{
+  font-weight: 600;
+  padding: 2rem 0 2rem;
+}
+
+#get-started{
+  background-color: black;
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  filter: brightness(150%);
+
+}
+
+#feat{
+  background-color: black;
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  filter: brightness(150%);
+}
+
+#subs{
+  background-color: black;
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  filter: brightness(150%);
+}
+
+#contact{
+  background-color: black;
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  filter: brightness(150%);
+}
+
+/* #footer{
+  background-color: black;
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  filter: brightness(150%);
+} */
+
+.reflect {
+    -webkit-box-reflect: below 16rem -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(30%, transparent), to(rgba(255, 255, 255, 0.1)));
+}
+
+.login{
+  font-size: 1.5rem;
+  color: black;
+}
+
+.btn-login{
+  background-color: white;
+  padding: 15px 10px;
+}
+
+.btnl{
+  padding: 10% 25% 1rem;
+}
+
+.btnl1{
+  padding: 5% 0 1rem;
+}
+
+.btnl1 .btn-login{
+  padding: 13px 30px;
+}
+
+.btn-login:hover{
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  transform: translateY(-0.15rem);
+  transition: 0.1s;
+}
+
+.btn-login:hover .login{
+  color: white;
+}
+
+.head{
+  padding: 5% 15% 5% 15%;
+}
+
+.span{
+  font-weight: 500;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.nav-wrap{
+  text-align: center;
+}
+
+.white-small{
+  color: #b9ac92;
+  font-size: 1rem;
+}
+
+.white-small:hover{
+  color: white;
+}
+
+.sticky-nav{
+  background-color: black;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  top: 0;
+  width: 100%;
+  position: fixed;
+  margin: 0 auto;
+}
+
+.feat-all-left{
+  text-align: left;
+  padding: 5% 0 5% 15%;
+}
+
+.feat-all-right{
+  text-align: left;
+  padding: 5% 15% 5% 0;
+  position: relative;
+  left: 50%;
+}
+
+.icon-speech-to-text{
+  color: white;
+  width: 10%;
+  height: 10%;
+}
+
+.icon{
+  color: white;
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+}
+
+.f3 i{
+  font-size: 3rem;
+}
+
+.feat-all h2{
+  font-size: 2rem;
+}
+
+.feat-all ul{
+  list-style-type: circle;
+}
+
+.feat-all li{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contact-icons{
+  text-align: center;
+}
+
+.c-icon{
+  color: white;
+  font-size: 2rem;
+  padding: 0 3%;
+}
+
+.c-icon:hover{
+  transform: translateY(-0.25rem);
+  font-size: 2.3rem;
+  transition: 0.5s;
+}
+
+.footp{
+  color: white;
+  font-size: 100%;
+  padding-top: 1rem;
+}
+
+.pull-right{
+  text-align: left;
+  padding: 5% 0;
+}
+
+.pull-left{
+  text-align: left;
+  padding: 5% 0 5% 15%;
+}
+
+.news-letter input{
+  width: 55%;
+  font-size: 1.5rem;
+}
+
+.news-letter{
+  padding: 2rem 0;
+  display: flex;
+}
+
+.btnl2{
+  padding-left: 1.5rem;
+}
+
+.news-letter .btn-login{
+  padding: 10px 10px 8px 10px;
+}
+
+.contact-wrap{
+  display: flex;
+}
+
+.hover{
+  color: white;
+}
+
+.hr1{
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  border-style: none;
+  border-top: solid;
+  border-color: #b9ac92;
+  height: 5px;
+  width: 60%;
+  border-width: 0.5px;
+  margin: 0 auto 2rem;
+}
+
+.small-text{
+  font-size: 0.6rem;
+  color: #b9ac92;
+}
+
+#footer .head{
+  padding: 7% 15% 2%;
+}
+
+.div-hr{
+  text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  border-style: none;
+  border-top: solid;
+  border-color: #b9ac92;
+  height: 0.5px;
+  width: 80%;
+  border-width: 0.5px;
+  margin: 2.5rem auto 0;
+}
+
+.card-wrap{
+  display: flex;
+  margin: 0 auto 5%;
+}
+
+.card1, .card2, .card3, .top2{
+  margin-left: 2%;
+}
+
+.card1, .card2, .card3{
+  background-color: #1a1c20;
+  height: 500px;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  box-shadow: 0 4px 8px 0 rgba(82,87,93,0.2);
+  transition: 0.3s;
+}
+
+.card2{
+  border-radius: 0 0 5px 5px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+
+.card2:hover, .card1:hover, .card3:hover{
+  box-shadow: 0 8px 16px 0 rgba(82,87,93,0.2);
+ }
+
+.card1, .card3{
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 2px solid ;
+}
+
+h5{
+  color: #838383;
+  opacity: 60%;
+}
+
+.top-card-wrap1{
+  margin-left: 12%;
+}
+.top2{
+  background-color: #333333;
+  height: 30px;
+  border-radius: 5px 5px 0 0;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+  border-left: 3px solid #333333;
+}
+
+.plane{
+  margin-top: 8%;
+}
+
+.card-text{
+  margin-top: 5%;
+}
+
+.card-text h2{
+  font-weight: 600;
+}
+
+.card-text h1, .purchase h1{
+  padding: 0;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+
+
+.card-text h5{
+  color: #eeeeee;
+  margin: 15% 5%;
+}
+
+.card-text h2{
+  color: #838383;
+}
+
+h6{
+  margin: 10% 0 0;
+  color: #838383;
+}
+
+.btn-buy{
+  background-color: white;
+  color: black;
+}
+
+.btn-buy:hover a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn-buy a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.btn-buy:hover{
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  transform: translateY(-0.15rem);
+  transition: 0.1s;
+}
+
+.btn-exp{
+  width: 100%;
+  height: 4.5rem;
+  text-align: left;
+  padding: 0 3%;
+  color: #838383;
+  border-radius: 5px;
+}
+
+.btn-exp h4{
+  color: #e0e0e0;
+  display: inline-block;
+}
+
+.btn-exp:focus{
+  outline: none !important;
+}
+
+.bar-wrap{
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  background-color: #1a1c20;
+  transition: 0.3s;
+}
+
+.btn-exp:focus{
+  outline:none;
+  box-shadow: none;
+}
+
+.bar-wrap:hover{
+  box-shadow: 0 8px 16px 0 rgba(82,87,93,0.2);
+}
+
+.btn-exp:hover{
+  color: #838383;
+}
+
+.card-exp{
+  background-color: white;
+}
+
+.accordion{
+  margin: 0 auto !important;
+}
+
+.down-arr{
+  position: absolute;
+  right: 18%;
+}
+
+.clickPullUpBar{
+  border: 2px solid;
+  box-shadow: 0 4px 8px 0 rgba(82,87,93,0.2);
+  border-radius: 3px;
+  margin-bottom: 5%;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.clickDropDownBar{
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-left: 2px solid;
+  box-shadow: none;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: -10px;
+  -webkit-transition: none;
+  transition: none;
+  background: linear-gradient(to right, #202021 70% , #1a1a1b 30%);
+}
+
+.clickDropDownBar:hover{
+  box-shadow: none;
+}
+
+.clickDropDownArr{
+  transform: rotate(180deg);
+  transition: 0.1s;
+}
+
+.clickPullUpArr{
+  transition: 0.1s;
+}
+
+.collapsing {
+  -webkit-transition: none;
+  transition: none;
+}
+
+.bar-exp{
+  margin-bottom: 5%;
+  background: linear-gradient(to right, #202021 70% , #1a1a1b 30%);
+  border-radius: 0 0 5px 5px;
+  border-right: 2px solid;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  box-shadow: 0 4px 8px 0 rgba(82,87,93,0.3);
+  transition: 0.3s;
+  display: flex;
+}
+
+.bar-exp:hover{
+  box-shadow: 0 8px 16px 0 rgba(82,87,93,0.2);
+}
+
+.purchase, .specs, .features-avail, .intro{
+  width: 25%;
+  text-align: center;
+}
+
+.intro, .features-avail, .specs{
+  text-align: left;
+}
+
+.features-avail{
+  /* margin-left: 10%; */
+}
+
+.purchase{
+  margin-bottom: 3%;
+}
+
+.intro h5{
+  color: #838383;
+  font-size: 1.2rem;
+}
+
+.features-avail h4, .specs h4{
+  color: white;
+}
+
+.specs h4, .specs h5{
+  margin-left: 25%;
+}
