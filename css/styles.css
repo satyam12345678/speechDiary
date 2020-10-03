@@ -124,6 +124,10 @@ h3{
   padding: 10% 25% 1rem;
 }
 
+.btnl button{
+  color: black;
+}  
+
 .btnl1{
   padding: 5% 0 1rem;
 }
